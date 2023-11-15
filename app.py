@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from datetime import datetime, timedelta
 
-app = Flask(__name___)
+app = Flask(__name__)
 
 # Sample in-memory database
 tasks = []
